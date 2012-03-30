@@ -7,6 +7,7 @@ build_requires:
   Carp: 0
   Carp::Parse: 0
   Data::Dump: 0
+  Data::Validate::Type: 0
   Test::Deep: 0
   Test::Exception: 0
   Test::More: 0
@@ -22,12 +23,12 @@ name: Carp-Parse-Redact
 provides:
   Carp::Parse::CallerInformation::Redacted:
     file: lib/Carp/Parse/CallerInformation/Redacted.pm
-    version: v1.0.1
+    version: v1.1.0
   Carp::Parse::Redact:
     file: lib/Carp/Parse/Redact.pm
-    version: v1.0.1
+    version: v1.1.0
 requires:
   perl: 5.006
 resources:
   license: http://opensource.org/licenses/artistic-license.php
-version: v1.0.1
+version: v1.1.0
